@@ -50,7 +50,10 @@ public class Procesos {
 	    name = mascota.nombre;
 	    tipo = mascota.especie;
 	    age = mascota.edad;
-	    System.out.println(code + "------" + name + "------" + tipo + "-------" + age );
+	    System.out.println("Codigo: "+code +"\n" 
+	    +"Nombre: "+ name+ "\n" 
+	    +"Tipo: "+ tipo +"\n"
+	    +"Años:" + age );
 	}
 	
 	public void buscarNombre () {
